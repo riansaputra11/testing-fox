@@ -1,0 +1,40 @@
+<html>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="separator">
+      <h1>1. Selector dan Styling Sederhana</h1>
+      <nav class="box-100">
+        <div id= "maroon-box">Saya adalah Box Berwarna Maroon</div></nav>
+      <nav class="box-100">
+        <div id= "dark-blue-box">Saya adalah Box Berwarna Dark Blue</div></nav>
+      <nav class="box-100">
+        <div id= "salem-box">Saya adalah Box Berwarna Salem</div></nav>
+    </div>
+    <div class="separator">
+      <h1>2. Selector Lebih Dari Satu</h1>
+      <nav class="box-100">
+        <div id ="maroon-box">Saya adalah Box Red berukuran 100</nav></div>
+      <nav class="box-200">
+      <div id="maroon-box" class ="red-background">Saya juga Box Red tapi ukurannya 200</nav></div>
+      <nav class="box-200">
+      <div id="dark-blue-box" class ="blue-background">Saya adalah Box Blue berukuran 200</nav></div>
+      <nav class="box-200">
+      <div id="salem-box" class ="green-background">Saya juga berukuran 200 tapi warnanya Green</nav></div>
+    </div>
+    <div class="separator">
+      <h1>3. Selector Melalui Parent</h1>
+      <div>
+        <nav class="box-list">
+          <div id="box-list" class="separator">Desain saya diatur oleh Parent SayaM</nav></div>
+        <nav class="box-list">
+        <div id="box-list" class="separator">Desain saya diatur oleh Parent Saya</nav></div>
+      <nav class="box-list">  
+      <div id="gold-box" class="separator">Desain saya diatur oleh Parent Saya, tapi saya punya warna khusus, yaitu Gold!</div>
+      </div>
+    </div>
+  </body>
+</html>
